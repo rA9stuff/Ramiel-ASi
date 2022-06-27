@@ -1,6 +1,6 @@
 # Ramiel
 An open-source, multipurpose macOS utility for checkm8-vulnerable iOS/iPadOS devices.
-.
+
 Supported by macOS 10.13 -> 11.X. High Sierra has not been tested but should work fine. Anything lower is unsupported.
 
 Ramiel is currently broken on M1 macs. Most tools for putting devices into PWNDFU mode are broken on M1 macs, an update will be pushed when this is fixed.

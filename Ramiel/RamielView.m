@@ -40,6 +40,7 @@ FirmwareKeys *userKeys;
     [super viewDidLoad];
     // Ensure we are running from /Applications, as running Ramiel from somewhere else can cause issues
     // However we need to ignore this when running via Xcode as it's not an issue then :)
+    /*
     if (![[[NSBundle mainBundle] resourcePath] containsString:@"/Applications/"] &&
         ![[[NSBundle mainBundle] resourcePath] containsString:@"build/Ramiel/Build"]) {
         NSAlert *alert = [[NSAlert alloc] init];
@@ -50,6 +51,7 @@ FirmwareKeys *userKeys;
         [alert runModal];
         exit(0);
     }
+    */
     // Check if an update is available
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSData *updateData = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://ramiel.app/latest"]];
@@ -443,8 +445,8 @@ FirmwareKeys *userKeys;
     [self->_settingsButton setEnabled:FALSE];
 
     dispatch_async(dispatch_get_main_queue(), ^{
-        if (!([[NSString stringWithFormat:@"%@", [userDevice getSerial_string]] containsString:@"checkm8"] ||
-              [[NSString stringWithFormat:@"%@", [userDevice getSerial_string]] containsString:@"eclipsa"])) {
+        if (!([[NSString stringWithFormat:@"%@", [userDevice getSerial_string]] containsString:@"PWND"] ||
+              [[NSString stringWithFormat:@"%@", [userDevice getSerial_string]] containsString:@"PWND"])) {
 
             while (TRUE) {
                 NSAlert *pwnNotice = [[NSAlert alloc] init];

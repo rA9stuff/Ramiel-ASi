@@ -190,12 +190,8 @@
         binaryName = @"eclipsa7001";
         flags = @"";
         pwnCheck = @"Now you can boot untrusted images.";
-    } else if ([cpid containsString:@"8000"]) {
-        binaryName = @"eclipsa8000";
-        flags = @"";
-        pwnCheck = @"Now you can boot untrusted images.";
-    } else if ([cpid containsString:@"8003"]) {
-        binaryName = @"eclipsa8003";
+    } else if ([cpid containsString:@"8000"] || [cpid containsString:@"8003"]) {
+        binaryName = @"gaster";
         flags = @"";
         pwnCheck = @"Now you can boot untrusted images.";
     } else if ([cpid containsString:@"8960"] || [cpid containsString:@"8965"]) {

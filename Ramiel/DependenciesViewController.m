@@ -53,7 +53,7 @@
     [self->_spinner setHidden:FALSE];
     [self->_goButton setEnabled:FALSE];
     [self->_goButton setHidden:TRUE];
-
+/*
     if (![[NSFileManager defaultManager] fileExistsAtPath:@"/usr/local/bin/img4tool"]) {
         [self->_neededToolsLabel setStringValue:@"Downloading img4tool..."];
         NSString *stringURL = @"https://github.com/tihmstar/img4tool/releases/"
@@ -313,6 +313,7 @@
         [fail runModal];
         exit(0);
     }
+ */[self.view.window.contentViewController dismissViewController:self];
 }
 
 - (IBAction)exitButton:(NSButton *)sender {

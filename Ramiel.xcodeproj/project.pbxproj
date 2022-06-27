@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		480F8BFA25F310AD002373CD /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 480F8BF925F310AD002373CD /* libpng16.16.dylib */; };
-		480F8BFB25F310AD002373CD /* libpng16.16.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 480F8BF925F310AD002373CD /* libpng16.16.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		480F8C4525F3161A002373CD /* ibootim.h in Headers */ = {isa = PBXBuildFile; fileRef = 480F8C3F25F3161A002373CD /* ibootim.h */; };
 		480F8C4625F3161A002373CD /* lzss.c in Sources */ = {isa = PBXBuildFile; fileRef = 480F8C4025F3161A002373CD /* lzss.c */; };
 		480F8C4725F3161A002373CD /* ibootimmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 480F8C4125F3161A002373CD /* ibootimmain.c */; };
@@ -32,10 +30,7 @@
 		480F8C7725F31722002373CD /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = 480F8C6725F31722002373CD /* patchfinder64.c */; };
 		480F8C7825F31722002373CD /* decoders.c in Sources */ = {isa = PBXBuildFile; fileRef = 480F8C6825F31722002373CD /* decoders.c */; };
 		4815A3F424F88072009F462E /* shsh in Resources */ = {isa = PBXBuildFile; fileRef = 4815A3F324F88072009F462E /* shsh */; };
-		48213D50250F8CB60031CFAD /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48213D4C250F833F0031CFAD /* libusb-1.0.0.dylib */; };
 		48255D79262001CA00EAB8A9 /* iPatcher in Resources */ = {isa = PBXBuildFile; fileRef = 48255D78262001CA00EAB8A9 /* iPatcher */; };
-		48255EA02629803B00EAB8A9 /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4861526B25DDB990009F4A08 /* libcurl.4.dylib */; };
-		48255EA12629803B00EAB8A9 /* libcurl.4.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4861526B25DDB990009F4A08 /* libcurl.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		48255EA72629805300EAB8A9 /* partial.h in Headers */ = {isa = PBXBuildFile; fileRef = 48255EA52629805300EAB8A9 /* partial.h */; };
 		48255EA82629805300EAB8A9 /* partial.c in Sources */ = {isa = PBXBuildFile; fileRef = 48255EA62629805300EAB8A9 /* partial.c */; };
 		4825C41825031F8600045B0F /* SettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4825C41625031F8600045B0F /* SettingsView.h */; };
@@ -45,14 +40,7 @@
 		48540B6525D24A0D004A3D87 /* Device.h in Sources */ = {isa = PBXBuildFile; fileRef = 48540B6425D24A0D004A3D87 /* Device.h */; };
 		48540B6725D24F10004A3D87 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 48540B6625D24F10004A3D87 /* Device.m */; };
 		48540C6825D278D9004A3D87 /* IPSW.m in Sources */ = {isa = PBXBuildFile; fileRef = 48540C6725D278D9004A3D87 /* IPSW.m */; };
-		485BD854266C772C00487A7D /* libusb-1.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 48213D4C250F833F0031CFAD /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		486040662601739B0088F33E /* libplist-2.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4861526825DDB954009F4A08 /* libplist-2.0.3.dylib */; };
-		486040672601739B0088F33E /* libplist-2.0.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4861526825DDB954009F4A08 /* libplist-2.0.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4860406C260173C70088F33E /* libusbmuxd-2.0.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4860406B260173C70088F33E /* libusbmuxd-2.0.6.dylib */; };
-		4860406D260173C70088F33E /* libusbmuxd-2.0.6.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4860406B260173C70088F33E /* libusbmuxd-2.0.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		48604082260186A70088F33E /* APNonceSetterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48604081260186A70088F33E /* APNonceSetterViewController.m */; };
-		48622C3826326D09007626B9 /* libcrypto.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48622C3726326D09007626B9 /* libcrypto.1.1.dylib */; };
-		48622C3926326D09007626B9 /* libcrypto.1.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 48622C3726326D09007626B9 /* libcrypto.1.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4862C25025F46E1B005F5A21 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4862C24F25F46E1B005F5A21 /* CreditsViewController.m */; };
 		4881DE8B25FB213000222048 /* DependenciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4881DE8A25FB213000222048 /* DependenciesViewController.m */; };
 		4883F6E925A072CD0066257E /* SHSHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4883F6E825A072CD0066257E /* SHSHViewController.m */; };
@@ -63,14 +51,28 @@
 		48AD63E524DFA50D00F89A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AD63E424DFA50D00F89A9C /* Assets.xcassets */; };
 		48AD63E824DFA50D00F89A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AD63E624DFA50D00F89A9C /* Main.storyboard */; };
 		48AD63EB24DFA50D00F89A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD63EA24DFA50D00F89A9C /* main.m */; };
-		48AD640A24DFA9A800F89A9C /* plist.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AD63FA24DFA75400F89A9C /* plist.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48B143B0250B98E3001945A5 /* libirecovery-1.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B143AF250B98E3001945A5 /* libirecovery-1.0.3.dylib */; };
-		48B143B1250B98E3001945A5 /* libirecovery-1.0.3.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48B143AF250B98E3001945A5 /* libirecovery-1.0.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		48BAA60F2557D97600F08EA4 /* FileMDHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BAA60D2557D97600F08EA4 /* FileMDHash.h */; };
 		48BAA6102557D97600F08EA4 /* FileMDHash.c in Sources */ = {isa = PBXBuildFile; fileRef = 48BAA60E2557D97600F08EA4 /* FileMDHash.c */; };
 		48CB56F72564F75300A15FAC /* ssh in Resources */ = {isa = PBXBuildFile; fileRef = 48CB56F62564F75300A15FAC /* ssh */; };
 		48CC896124DFF8E3009B5DCC /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 48CC895424DFF8E3009B5DCC /* Base.lproj */; };
 		48D06AE12549246E0044E77C /* Exploits in Resources */ = {isa = PBXBuildFile; fileRef = 48D06AE02549246E0044E77C /* Exploits */; };
+		696D9584286A2E6600BF9F65 /* libusbmuxd-2.0.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D957B286A2E6600BF9F65 /* libusbmuxd-2.0.6.dylib */; };
+		696D9585286A2E6600BF9F65 /* libplist-2.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D957C286A2E6600BF9F65 /* libplist-2.0.3.dylib */; };
+		696D9586286A2E6600BF9F65 /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D957D286A2E6600BF9F65 /* libpng16.16.dylib */; };
+		696D9587286A2E6600BF9F65 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D957E286A2E6600BF9F65 /* libusb-1.0.0.dylib */; };
+		696D9588286A2E6600BF9F65 /* libimobiledevice-glue-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D957F286A2E6600BF9F65 /* libimobiledevice-glue-1.0.0.dylib */; };
+		696D9589286A2E6600BF9F65 /* libirecovery-1.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D9580286A2E6600BF9F65 /* libirecovery-1.0.3.dylib */; };
+		696D958A286A2E6600BF9F65 /* libcrypto.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D9581286A2E6600BF9F65 /* libcrypto.1.1.dylib */; };
+		696D958B286A2E6600BF9F65 /* libimobiledevice-1.0.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 696D9582286A2E6600BF9F65 /* libimobiledevice-1.0.6.dylib */; };
+		699738872869BB220033F668 /* libcrypto.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 699738862869BB220033F668 /* libcrypto.1.1.dylib */; };
+		699738892869BB330033F668 /* libusbmuxd-2.0.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 699738882869BB330033F668 /* libusbmuxd-2.0.6.dylib */; };
+		6997388B2869BCC40033F668 /* libimg4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997388A2869BCC40033F668 /* libimg4.a */; };
+		6997388D2869BEAB0033F668 /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997388C2869BEAB0033F668 /* libcurl.4.dylib */; };
+		6997388F2869BEB80033F668 /* libplist-2.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997388E2869BEB80033F668 /* libplist-2.0.3.dylib */; };
+		699738912869BEC30033F668 /* libimobiledevice-1.0.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 699738902869BEC30033F668 /* libimobiledevice-1.0.6.dylib */; };
+		699738932869BECA0033F668 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 699738922869BECA0033F668 /* libusb-1.0.0.dylib */; };
+		699738952869BED30033F668 /* libirecovery-1.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 699738942869BED30033F668 /* libirecovery-1.0.3.dylib */; };
+		699738972869BF7E0033F668 /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 699738962869BF7E0033F668 /* libpng16.16.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,12 +82,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4860406D260173C70088F33E /* libusbmuxd-2.0.6.dylib in Embed Libraries */,
-				48255EA12629803B00EAB8A9 /* libcurl.4.dylib in Embed Libraries */,
-				480F8BFB25F310AD002373CD /* libpng16.16.dylib in Embed Libraries */,
-				485BD854266C772C00487A7D /* libusb-1.0.0.dylib in Embed Libraries */,
-				486040672601739B0088F33E /* libplist-2.0.3.dylib in Embed Libraries */,
-				48622C3926326D09007626B9 /* libcrypto.1.1.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +92,6 @@
 			dstPath = Contents/Frameworks;
 			dstSubfolderSpec = 1;
 			files = (
-				48B143B1250B98E3001945A5 /* libirecovery-1.0.3.dylib in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,7 +100,6 @@
 
 /* Begin PBXFileReference section */
 		1CDEB699C7CAC6F820C9092B /* Pods_Ramiel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ramiel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		480F8BF925F310AD002373CD /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.16.dylib; path = ../../../../../usr/local/Cellar/libpng/1.6.37/lib/libpng16.16.dylib; sourceTree = "<group>"; };
 		480F8C3F25F3161A002373CD /* ibootim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibootim.h; sourceTree = "<group>"; };
 		480F8C4025F3161A002373CD /* lzss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzss.c; sourceTree = "<group>"; };
 		480F8C4125F3161A002373CD /* ibootimmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ibootimmain.c; sourceTree = "<group>"; };
@@ -132,7 +126,6 @@
 		4815A38E24F5006C009F462E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4815A38F24F50092009F462E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		4815A3F324F88072009F462E /* shsh */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shsh; sourceTree = "<group>"; };
-		48213D4C250F833F0031CFAD /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "../../../../../usr/local/Cellar/libusb/1.0.23/lib/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
 		48255D78262001CA00EAB8A9 /* iPatcher */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = iPatcher; sourceTree = "<group>"; };
 		48255E9A262977FB00EAB8A9 /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
 		48255EA52629805300EAB8A9 /* partial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = partial.h; sourceTree = "<group>"; };
@@ -146,19 +139,12 @@
 		48540B6625D24F10004A3D87 /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		48540C6725D278D9004A3D87 /* IPSW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPSW.m; sourceTree = "<group>"; };
 		48540C6925D278E6004A3D87 /* IPSW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPSW.h; sourceTree = "<group>"; };
-		4856E06325CA364C00AFA0A2 /* libimobiledevice-1.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libimobiledevice-1.0.6.dylib"; path = "../../../../../usr/local/Cellar/libimobiledevice/1.3.0/lib/libimobiledevice-1.0.6.dylib"; sourceTree = "<group>"; };
-		4860406B260173C70088F33E /* libusbmuxd-2.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusbmuxd-2.0.6.dylib"; path = "../../../../../usr/local/Cellar/libusbmuxd/2.0.2/lib/libusbmuxd-2.0.6.dylib"; sourceTree = "<group>"; };
-		4860407726017B010088F33E /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.1.dylib; path = "../../../../../usr/local/Cellar/openssl@1.1/1.1.1j/lib/libcrypto.1.1.dylib"; sourceTree = "<group>"; };
 		48604080260186A70088F33E /* APNonceSetterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNonceSetterViewController.h; sourceTree = "<group>"; };
 		48604081260186A70088F33E /* APNonceSetterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNonceSetterViewController.m; sourceTree = "<group>"; };
-		4861526825DDB954009F4A08 /* libplist-2.0.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libplist-2.0.3.dylib"; path = "../../../../../usr/local/Cellar/libplist/2.2.0/lib/libplist-2.0.3.dylib"; sourceTree = "<group>"; };
-		4861526B25DDB990009F4A08 /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.4.dylib; path = ../../../../../usr/lib/libcurl.4.dylib; sourceTree = "<group>"; };
 		4861526E25DDB9BA009F4A08 /* libfragmentzip.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfragmentzip.0.dylib; path = ../../../../../usr/local/lib/libfragmentzip.0.dylib; sourceTree = "<group>"; };
 		4861527125DDBABC009F4A08 /* libimobiledevice-1.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libimobiledevice-1.0.6.dylib"; path = "../../../../../usr/local/lib/libimobiledevice-1.0.6.dylib"; sourceTree = "<group>"; };
-		48622C3726326D09007626B9 /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.1.dylib; path = "../../../../../usr/local/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.1.1.dylib"; sourceTree = "<group>"; };
 		4862C24F25F46E1B005F5A21 /* CreditsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
 		4862C25125F46E25005F5A21 /* CreditsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
-		4862C2D425F579EE005F5A21 /* libimg4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimg4.a; path = "../../../Downloads/img4lib-2020-10-27 2/apple/libimg4.a"; sourceTree = "<group>"; };
 		4881DE8A25FB213000222048 /* DependenciesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DependenciesViewController.m; sourceTree = "<group>"; };
 		4881DE8C25FB213B00222048 /* DependenciesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DependenciesViewController.h; sourceTree = "<group>"; };
 		4883F6E825A072CD0066257E /* SHSHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHSHViewController.m; sourceTree = "<group>"; };
@@ -177,7 +163,6 @@
 		48AD63EA24DFA50D00F89A9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48AD63F924DFA73A00F89A9C /* plist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = plist; path = ../../../../../usr/local/Cellar/libplist/2.2.0/include/plist; sourceTree = "<group>"; };
 		48AD63FA24DFA75400F89A9C /* plist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = plist.h; path = ../../../../../usr/local/Cellar/libplist/2.2.0/include/plist/plist.h; sourceTree = "<group>"; };
-		48B143AF250B98E3001945A5 /* libirecovery-1.0.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libirecovery-1.0.3.dylib"; path = "../../../../../usr/local/Cellar/libirecovery/git0/lib/libirecovery-1.0.3.dylib"; sourceTree = "<group>"; };
 		48BAA60D2557D97600F08EA4 /* FileMDHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileMDHash.h; sourceTree = "<group>"; };
 		48BAA60E2557D97600F08EA4 /* FileMDHash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FileMDHash.c; sourceTree = "<group>"; };
 		48CB56F62564F75300A15FAC /* ssh */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ssh; sourceTree = "<group>"; };
@@ -186,6 +171,23 @@
 		48D06AE02549246E0044E77C /* Exploits */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Exploits; sourceTree = "<group>"; };
 		48F75CBC251AB20B00C9F5DE /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		5695A2824185F05384FB80A6 /* Pods-Ramiel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramiel.debug.xcconfig"; path = "Target Support Files/Pods-Ramiel/Pods-Ramiel.debug.xcconfig"; sourceTree = "<group>"; };
+		696D957B286A2E6600BF9F65 /* libusbmuxd-2.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusbmuxd-2.0.6.dylib"; sourceTree = "<group>"; };
+		696D957C286A2E6600BF9F65 /* libplist-2.0.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libplist-2.0.3.dylib"; sourceTree = "<group>"; };
+		696D957D286A2E6600BF9F65 /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpng16.16.dylib; sourceTree = "<group>"; };
+		696D957E286A2E6600BF9F65 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		696D957F286A2E6600BF9F65 /* libimobiledevice-glue-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libimobiledevice-glue-1.0.0.dylib"; sourceTree = "<group>"; };
+		696D9580286A2E6600BF9F65 /* libirecovery-1.0.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libirecovery-1.0.3.dylib"; sourceTree = "<group>"; };
+		696D9581286A2E6600BF9F65 /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcrypto.1.1.dylib; sourceTree = "<group>"; };
+		696D9582286A2E6600BF9F65 /* libimobiledevice-1.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libimobiledevice-1.0.6.dylib"; sourceTree = "<group>"; };
+		699738862869BB220033F668 /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcrypto.1.1.dylib; sourceTree = "<group>"; };
+		699738882869BB330033F668 /* libusbmuxd-2.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusbmuxd-2.0.6.dylib"; sourceTree = "<group>"; };
+		6997388A2869BCC40033F668 /* libimg4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libimg4.a; sourceTree = "<group>"; };
+		6997388C2869BEAB0033F668 /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcurl.4.dylib; sourceTree = "<group>"; };
+		6997388E2869BEB80033F668 /* libplist-2.0.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libplist-2.0.3.dylib"; sourceTree = "<group>"; };
+		699738902869BEC30033F668 /* libimobiledevice-1.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libimobiledevice-1.0.6.dylib"; sourceTree = "<group>"; };
+		699738922869BECA0033F668 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		699738942869BED30033F668 /* libirecovery-1.0.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libirecovery-1.0.3.dylib"; sourceTree = "<group>"; };
+		699738962869BF7E0033F668 /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpng16.16.dylib; sourceTree = "<group>"; };
 		6F163D5DAE91831C9C65AE07 /* Pods-Ramiel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramiel.release.xcconfig"; path = "Target Support Files/Pods-Ramiel/Pods-Ramiel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,14 +196,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48255EA02629803B00EAB8A9 /* libcurl.4.dylib in Frameworks */,
-				4860406C260173C70088F33E /* libusbmuxd-2.0.6.dylib in Frameworks */,
-				48213D50250F8CB60031CFAD /* libusb-1.0.0.dylib in Frameworks */,
-				48622C3826326D09007626B9 /* libcrypto.1.1.dylib in Frameworks */,
+				696D958B286A2E6600BF9F65 /* libimobiledevice-1.0.6.dylib in Frameworks */,
+				6997388D2869BEAB0033F668 /* libcurl.4.dylib in Frameworks */,
+				6997388B2869BCC40033F668 /* libimg4.a in Frameworks */,
+				696D9586286A2E6600BF9F65 /* libpng16.16.dylib in Frameworks */,
+				696D9587286A2E6600BF9F65 /* libusb-1.0.0.dylib in Frameworks */,
+				696D958A286A2E6600BF9F65 /* libcrypto.1.1.dylib in Frameworks */,
+				699738932869BECA0033F668 /* libusb-1.0.0.dylib in Frameworks */,
+				6997388F2869BEB80033F668 /* libplist-2.0.3.dylib in Frameworks */,
+				696D9589286A2E6600BF9F65 /* libirecovery-1.0.3.dylib in Frameworks */,
+				696D9588286A2E6600BF9F65 /* libimobiledevice-glue-1.0.0.dylib in Frameworks */,
+				696D9584286A2E6600BF9F65 /* libusbmuxd-2.0.6.dylib in Frameworks */,
+				699738892869BB330033F668 /* libusbmuxd-2.0.6.dylib in Frameworks */,
 				4847691C24FBA597006E8089 /* Pods_Ramiel.framework in Frameworks */,
-				48B143B0250B98E3001945A5 /* libirecovery-1.0.3.dylib in Frameworks */,
-				486040662601739B0088F33E /* libplist-2.0.3.dylib in Frameworks */,
-				480F8BFA25F310AD002373CD /* libpng16.16.dylib in Frameworks */,
+				699738972869BF7E0033F668 /* libpng16.16.dylib in Frameworks */,
+				699738952869BED30033F668 /* libirecovery-1.0.3.dylib in Frameworks */,
+				699738912869BEC30033F668 /* libimobiledevice-1.0.6.dylib in Frameworks */,
+				699738872869BB220033F668 /* libcrypto.1.1.dylib in Frameworks */,
+				696D9585286A2E6600BF9F65 /* libplist-2.0.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +290,7 @@
 				480F8C5725F31722002373CD /* kairos */,
 				480F8C3E25F3161A002373CD /* ibootim */,
 				4883FA2425B7ECD50066257E /* bootlogo.im4p */,
+				696D957A286A2E6600BF9F65 /* ASi-Libraries */,
 				48CB56F62564F75300A15FAC /* ssh */,
 				48D06AE02549246E0044E77C /* Exploits */,
 				4815A3F324F88072009F462E /* shsh */,
@@ -319,20 +332,19 @@
 		48AD63F824DFA73A00F89A9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				48622C3726326D09007626B9 /* libcrypto.1.1.dylib */,
+				699738862869BB220033F668 /* libcrypto.1.1.dylib */,
 				48255E9A262977FB00EAB8A9 /* libcurl.tbd */,
-				4860407726017B010088F33E /* libcrypto.1.1.dylib */,
-				4860406B260173C70088F33E /* libusbmuxd-2.0.6.dylib */,
-				4862C2D425F579EE005F5A21 /* libimg4.a */,
-				480F8BF925F310AD002373CD /* libpng16.16.dylib */,
+				699738882869BB330033F668 /* libusbmuxd-2.0.6.dylib */,
+				6997388A2869BCC40033F668 /* libimg4.a */,
+				699738962869BF7E0033F668 /* libpng16.16.dylib */,
+				6997388E2869BEB80033F668 /* libplist-2.0.3.dylib */,
 				4861527125DDBABC009F4A08 /* libimobiledevice-1.0.6.dylib */,
 				4861526E25DDB9BA009F4A08 /* libfragmentzip.0.dylib */,
-				4861526B25DDB990009F4A08 /* libcurl.4.dylib */,
-				4861526825DDB954009F4A08 /* libplist-2.0.3.dylib */,
-				4856E06325CA364C00AFA0A2 /* libimobiledevice-1.0.6.dylib */,
+				699738902869BEC30033F668 /* libimobiledevice-1.0.6.dylib */,
+				6997388C2869BEAB0033F668 /* libcurl.4.dylib */,
 				48F75CBC251AB20B00C9F5DE /* libz.1.dylib */,
-				48213D4C250F833F0031CFAD /* libusb-1.0.0.dylib */,
-				48B143AF250B98E3001945A5 /* libirecovery-1.0.3.dylib */,
+				699738922869BECA0033F668 /* libusb-1.0.0.dylib */,
+				699738942869BED30033F668 /* libirecovery-1.0.3.dylib */,
 				4815A38F24F50092009F462E /* libiconv.tbd */,
 				4815A38E24F5006C009F462E /* libz.tbd */,
 				484CE6DD24E100850073A5F3 /* CoreFoundation.framework */,
@@ -342,6 +354,21 @@
 				1CDEB699C7CAC6F820C9092B /* Pods_Ramiel.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		696D957A286A2E6600BF9F65 /* ASi-Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				696D957B286A2E6600BF9F65 /* libusbmuxd-2.0.6.dylib */,
+				696D957C286A2E6600BF9F65 /* libplist-2.0.3.dylib */,
+				696D957D286A2E6600BF9F65 /* libpng16.16.dylib */,
+				696D957E286A2E6600BF9F65 /* libusb-1.0.0.dylib */,
+				696D957F286A2E6600BF9F65 /* libimobiledevice-glue-1.0.0.dylib */,
+				696D9580286A2E6600BF9F65 /* libirecovery-1.0.3.dylib */,
+				696D9581286A2E6600BF9F65 /* libcrypto.1.1.dylib */,
+				696D9582286A2E6600BF9F65 /* libimobiledevice-1.0.6.dylib */,
+			);
+			path = "ASi-Libraries";
 			sourceTree = "<group>";
 		};
 		D19A65BC11697CC8A2597C19 /* Pods */ = {
@@ -367,7 +394,6 @@
 				480F8C6D25F31722002373CD /* decoders.h in Headers */,
 				480F8C7225F31722002373CD /* mach-o_loader.h in Headers */,
 				480F8C6C25F31722002373CD /* newpatch.h in Headers */,
-				48AD640A24DFA9A800F89A9C /* plist.h in Headers */,
 				480F8C4525F3161A002373CD /* ibootim.h in Headers */,
 				480F8C7025F31722002373CD /* mac_policy.h in Headers */,
 				48255EA72629805300EAB8A9 /* partial.h in Headers */,
@@ -677,7 +703,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5695A2824185F05384FB80A6 /* Pods-Ramiel.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = x86_64;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_ENTITLEMENTS = Ramiel/Ramiel.entitlements;
@@ -686,17 +712,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 5NRC38Y2QJ;
+				DEVELOPMENT_TEAM = KDKJ9R2CR6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ramiel/ASi-Libraries",
+				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"/usr/local/Cellar/libimobiledevice/HEAD-333eb1a/lib",
-					/usr/local/Cellar/libplist/2.2.0/lib,
 					/usr/local/lib,
-					/usr/local/Cellar/libirecovery/git0/lib,
 				);
 				INFOPLIST_FILE = Ramiel/Info.plist;
 				INSTALL_PATH = /Applications;
@@ -716,8 +743,9 @@
 					/usr/local/Cellar/libusbmuxd/2.0.2/lib,
 					"/usr/local/Cellar/openssl@1.1/1.1.1j/lib",
 					"/usr/local/Cellar/openssl@1.1/1.1.1k/lib",
+					"$(PROJECT_DIR)/Ramiel/ASi-Libraries",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.1.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -743,6 +771,8 @@
 					/usr/local/include,
 					/usr/local/lib,
 					/usr/local/Cellar/libirecovery/git0/lib,
+					/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16,
+					"/opt/homebrew/Cellar/libusb/1.0.26/include/**",
 				);
 			};
 			name = Debug;
@@ -751,7 +781,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F163D5DAE91831C9C65AE07 /* Pods-Ramiel.release.xcconfig */;
 			buildSettings = {
-				ARCHS = x86_64;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_ENTITLEMENTS = Ramiel/RamielRelease.entitlements;
@@ -760,10 +790,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 5NRC38Y2QJ;
+				DEVELOPMENT_TEAM = KDKJ9R2CR6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ramiel/ASi-Libraries",
+				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/libraries",
@@ -772,6 +806,7 @@
 					/usr/local/Cellar/libplist/2.2.0/lib,
 					/usr/local/lib,
 					/usr/local/Cellar/libirecovery/git0/lib,
+					/usr/local/lib/plist,
 				);
 				INFOPLIST_FILE = Ramiel/Info.plist;
 				INSTALL_PATH = /Applications;
@@ -791,8 +826,9 @@
 					/usr/local/Cellar/libusbmuxd/2.0.2/lib,
 					"/usr/local/Cellar/openssl@1.1/1.1.1j/lib",
 					"/usr/local/Cellar/openssl@1.1/1.1.1k/lib",
+					"$(PROJECT_DIR)/Ramiel/ASi-Libraries",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.1.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -818,6 +854,8 @@
 					/usr/local/include,
 					/usr/local/lib,
 					/usr/local/Cellar/libirecovery/git0/lib,
+					/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16,
+					"/opt/homebrew/Cellar/libusb/1.0.26/include/**",
 				);
 			};
 			name = Release;

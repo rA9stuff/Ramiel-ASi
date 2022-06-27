@@ -182,30 +182,10 @@
 - (int)runCheckm8 {
     NSString *binaryName, *flags, *pwnCheck, *cpid;
     cpid = [self getCpid];
-    if ([cpid containsString:@"7000"]) {
-        binaryName = @"eclipsa7000";
-        flags = @"";
-        pwnCheck = @"Now you can boot untrusted images.";
-    } else if ([cpid containsString:@"7001"]) {
-        binaryName = @"eclipsa7001";
-        flags = @"";
-        pwnCheck = @"Now you can boot untrusted images.";
-    } else if ([cpid containsString:@"8000"] || [cpid containsString:@"8003"]) {
+    if ([cpid containsString:@"7000"] || [cpid containsString:@"7001"] || [cpid containsString:@"8000"] || [cpid containsString:@"8003"] || [cpid containsString:@"8010"] || [cpid containsString:@"8011"] || [cpid containsString:@"8015"]) {
         binaryName = @"gaster";
-        flags = @"";
+        flags = @"pwn";
         pwnCheck = @"Now you can boot untrusted images.";
-    } else if ([cpid containsString:@"8960"] || [cpid containsString:@"8965"]) {
-        binaryName = @"iPwnder32";
-        flags = @"-p";
-        pwnCheck = @"Device is now in pwned DFU mode!";
-    } else if ([cpid containsString:@"8010"] || [cpid containsString:@"8011"]) {
-        binaryName = @"Fugu/Fugu";
-        flags = @"rmsigchks";
-        pwnCheck = @"-> You can now send an iBSS with broken signature";
-    } else if ([cpid containsString:@"8015"]) {
-        binaryName = @"ipwndfu";
-        flags = @"-p";
-        pwnCheck = @"Device is now in pwned DFU Mode.";
     } else {
         NSLog(@"Will add supprt for CPID:%@ soon!", cpid);
         return 1;

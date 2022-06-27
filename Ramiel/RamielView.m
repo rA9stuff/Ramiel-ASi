@@ -262,8 +262,8 @@ FirmwareKeys *userKeys;
                                 [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: checkm8)",
                                                                                              [userDevice getModel]]];
                             } else if ([[NSString stringWithFormat:@"%@", [userDevice getSerial_string]]
-                                           containsString:@"eclipsa"]) {
-                                [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: eclipsa)",
+                                           containsString:@"gaster"]) {
+                                [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: gaster)",
                                                                                              [userDevice getModel]]];
                             } else {
                                 [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: N/A)",
@@ -460,12 +460,18 @@ FirmwareKeys *userKeys;
 
                     if ([userDevice runCheckm8] == 0) {
                         [userDevice setIRECVDeviceInfo:[userDevice getIRECVClient]];
+                        [userDevice setIRECVDeviceInfo:[userDevice getIRECVClient]];
+                        
                         if ([[NSString stringWithFormat:@"%@", [userDevice getSerial_string]]
                                 containsString:@"checkm8"]) {
                             [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: checkm8)",
                                                                                          [userDevice getModel]]];
+                        } else if ([[NSString stringWithFormat:@"%@", [userDevice getSerial_string]]
+                                       containsString:@"gaster"]) {
+                            [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: gaster)",
+                                                                                         [userDevice getModel]]];
                         } else {
-                            [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: eclipsa)",
+                            [self->_modelLabel setStringValue:[NSString stringWithFormat:@"%@ (PWND: N/A)",
                                                                                          [userDevice getModel]]];
                         }
                         break;
